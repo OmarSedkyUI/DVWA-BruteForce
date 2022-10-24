@@ -1,0 +1,24 @@
+BruteForce(LoginPage).py SampleRun
+[+] Enter Page URL: http://localhost/dvwa/login.php
+[+] Enter Username For The Account To Bruteforce: admin
+[+] Enter Password File To Use: PassFile.txt
+[+] Enter String That Occurs When Login Fails: Login failed
+[+] Found Username: ==> admin
+[+] Found Password: ==> password
+
+Process finished with exit code 0
+
+
+
+BruteForce(Low-Medium-High).py SampleRun
+[+] Enter Login URL: http://localhost/dvwa/login.php
+[+] Enter Username For The Login: admin
+[+] Enter Password For The Login: password
+[+] Enter Page URL: vulnerabilities/brute/
+[+] Enter Username For The Account To Bruteforce: admin
+[+] Enter Password File To Use: PassFile.txt
+[+] Enter String That Occurs When Login Succeeds: Welcome to the password protected area
+[+] Found Username: ==> admin
+[+] Found Password: ==> password
+
+Process finished with exit code 0
